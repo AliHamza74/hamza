@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+logo h1{
+    font-weight: 800;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(128, 128, 128);
+    padding: 18px;
+    border-radius: 30px;
+    width: 600px;
+}
